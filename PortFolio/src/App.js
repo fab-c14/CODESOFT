@@ -20,11 +20,10 @@ const App = () => {
           width:"100%",
           height:"100%",
           position:"fixed",
-        
           backgroundSize:"cover",
           zIndex:-1
         }}>
-          <ParticlesBg bg={true} type="thick" zIndex={"-1"} num={window.innerWidth<700?20:90} interactive={true}/>
+          <ParticlesBg bg={true} type="thick" zIndex={"-1"}  />
         </div>
 
       <div className="container">
