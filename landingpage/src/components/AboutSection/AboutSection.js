@@ -1,9 +1,9 @@
-// AboutSection.js
+
 import React from 'react';
 
 const AboutSection = () => {
   const getRandomImage = () => {
-    const width = 400; // Set a fixed width for the image
+    const width = 400; 
     const height = 300; // Set a fixed height for the image
     return `https://picsum.photos/${width}/${height}?random=3`;
   };

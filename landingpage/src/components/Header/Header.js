@@ -1,5 +1,6 @@
-// Header.js
+
 import React from 'react';
+import './Header.css';
 
 const Header = () => {
   const getRandomImage = () => {
@@ -10,13 +11,10 @@ const Header = () => {
 
   return (
     <div>
-
       <header className="vh-100 dt w-100">
-        <div
-          className="dtc v-mid cover ph3 ph4-m ph5-l relative"
-          style={{ backgroundImage: `url("${getRandomImage()}")` }}
-        >
-          <h1 className="f2 f-subheadline-l fw6 tc white">Welcome to Our College</h1>
+        <div className="dtc v-mid cover ph3 ph4-m ph5-l relative bg-center header-container">
+          <div className="header-background" style={{ backgroundImage: `url("${getRandomImage()}")` }}></div>
+          <h1 className="f2 f-subheadline-l fw6 tc white">Welcome to Our Landing Page Website</h1>
           <p className="f3 fw4 tc white animated-text">Empowering Minds</p>
 
           <div className="flex justify-center mt4">

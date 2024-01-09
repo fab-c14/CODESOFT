@@ -1,4 +1,4 @@
-// Navbar.js
+
 import React from 'react';
 
 const Navbar = () => (
@@ -24,8 +24,7 @@ const Navbar = () => (
         <a className="link dim white bg-navy ph3 pv2 mh2 br2 fw6" href="/contact" title="Contact">
           Contact
         </a>
-      </div>
-      {/* Add more navigation links as needed */}
+      </div> 
     </div>
   </nav>
 );

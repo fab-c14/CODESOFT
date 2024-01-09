@@ -1,0 +1,21 @@
+/* AboutSection.css */
+.article-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Adjustments to the font size and line height */
+  .f3 {
+    font-size: 1.5rem;
+  }
+  
+  .f5 {
+    font-size: 1rem;
+  }
+  
+  /* Adjustments to the image size */
+  .w-40-l {
+    max-width: 300px;
+    height: auto;
+  }
+  
