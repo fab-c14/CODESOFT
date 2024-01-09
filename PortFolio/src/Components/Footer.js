@@ -37,7 +37,7 @@ class Footer extends Component{
                                 Come On Give Me A Star&nbsp;
                                 <FaStar /> <a href="https://github.com/fab-c14" target="_new" className="dim green" ><FaGithubSquare size={33} /> </a>
                                  <hr />
-                                 <h6 className="tc fw1 small"> inspired by cobiwave's <span className="i"> [ #SampleFolio] </span> template </h6>
+                                 
                                  <br/>
                             </div>
                     </div>
