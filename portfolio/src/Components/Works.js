@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Container from "react-bootstrap/Container";
 import Project from "../Assets/Project";
 import Row from 'react-bootstrap/Row';
-import ParticlesBg from "particles-bg";
 
 class Works extends Component {
   render() {
@@ -19,6 +18,7 @@ class Works extends Component {
                 sourceCode='https://github.com/fab-c14/ImageScraper.git'
                 liveLink=""
                 picAlt='https://picsum.photos/370/160?random=1'
+                languages={["flask", "flask-cors", "python", "beautiful-soup", "requests"]}
               />
 
               <Project
