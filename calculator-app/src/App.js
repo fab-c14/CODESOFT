@@ -35,7 +35,7 @@ function App() {
         <li></li>
         <li></li>
       </ul>
-      <div className="pa3  br4">
+      <div className="">
         <Calculator />
       </div>
     </div>

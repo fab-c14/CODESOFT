@@ -15,19 +15,19 @@ const Calculator = () => {
   };
 
   const handleCalculate = () => {
-    try {
+    try{
       setResult(eval(input).toString());
-    } catch (error) {
-      setResult('Error');
+    }catch(error){
+      setResult("Error");
     }
   };
 
   return (
     <div>
-    <div className="tc pa3 br4 flex justify-center">
+    <div className="tc pa3 br4 flex justify-center mt5">
       {/* <div className="grid grid-cols-4 gap-2 v-mid"> */}
 
-    <div className='black b br-3 shadow-5'>
+    <div className='black b br-3 shadow-5 ma2 pa3'>
         <input
           type="text"
           value={input}
